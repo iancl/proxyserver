@@ -1,0 +1,90 @@
+{
+    "validateNewlineAfterArrayElements": true,
+    "validateIndentation": 4,
+    "disallowSpaceAfterObjectKeys": true,
+    "validateLineBreaks": "LF",
+    "disallowSpaceAfterPrefixUnaryOperators": true,
+    "requireSpaceBeforeObjectValues": true,
+    "disallowMixedSpacesAndTabs": true,
+    "disallowSpaceBeforeComma": true,
+    "requireCommaBeforeLineBreak": true,
+    "requireLineBreakAfterVariableAssignment": true,
+    "disallowSpaceBeforeSemicolon": true,
+    "disallowSpacesInCallExpression": true,
+    "disallowSpacesInsideParentheses": true,
+    "disallowSpacesInsideParenthesizedExpression": true,
+    "disallowTrailingWhitespace": true,
+    "disallowTrailingComma": true,
+    "requireSpaceAfterLineComment": false,
+    "requireSpaceBeforeBlockStatements": 1,
+    "requireSpaceBetweenArguments": true,
+    "requireSpacesInForStatement": true,
+    "disallowNewlineBeforeBlockStatements": true,
+    "requireCurlyBraces": [
+        "if",
+        "else",
+        "for",
+        "while",
+        "do",
+        "try",
+        "catch"
+    ],
+    "validateParameterSeparator": ", ",
+    "requireCapitalizedConstructors": true,
+    "disallowPaddingNewlinesInBlocks": false,
+    "requireSpacesInFunctionExpression": {
+        "beforeOpeningRoundBrace": true,
+        "beforeOpeningCurlyBrace": true
+    },
+    "disallowSpacesInFunctionDeclaration": {
+        "beforeOpeningRoundBrace": true
+    },
+    "requireSpacesInFunctionDeclaration": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "requireKeywordsOnNewLine": [
+        "else",
+        "catch"
+    ],
+    "disallowKeywords": [
+        "with",
+        "eval"
+    ],
+    "disallowSpaceBeforePostfixUnaryOperators": [
+        "++",
+        "--"
+    ],
+    "requireSpaceAfterBinaryOperators": [
+        "=",
+        ",",
+        "+",
+        "-",
+        "/",
+        "*",
+        "==",
+        "===",
+        "!=",
+        "!=="
+    ],
+    "requireSpaceAfterKeywords": [
+        "do",
+        "for",
+        "if",
+        "else",
+        "switch",
+        "case",
+        "try",
+        "catch",
+        "void",
+        "while",
+        "with",
+        "return",
+        "typeof"
+    ],
+        "requireSpacesInConditionalExpression": {
+        "afterTest": true,
+        "beforeConsequent": true,
+        "afterConsequent": true,
+        "beforeAlternate": true
+    }
+}

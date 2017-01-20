@@ -1,0 +1,21 @@
+{
+  "name": "studioservern",
+  "version": "1.0.0",
+  "description": "Server for the Say media studio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian Calderon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "native-promise-only": "^0.8.1",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1",
+    "winston": "^2.3.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
